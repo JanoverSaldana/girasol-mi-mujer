@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <title>Cielo Garcia</title>
+</head>
+<body>
+
+    <section>
+        <div class="card">
+            <img src="src/img/mi-mujer.jpeg" alt="Flores amarillas" class="card-image">
+            <div class="card-content">
+                <p>Hola Mi amor,</p>
+                <p>Solo quería alegrarte el día con estas flores amarillas. Son un pequeño
+                    recordatorio de lo mucho que me importas y de lo mucho que te amo.</p>
+                <p>¡Espero que te hagan sonreír!</p>
+            </div>
+            <button id="redirectButton">Click y descubre tu regalo</button>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('redirectButton').addEventListener('click', function() {
+            window.location.href = 'src/pages/index-girasol.html'; // Asegúrate de que esta ruta es correcta
+        });
+    </script>
+
+</body>
+</html>
